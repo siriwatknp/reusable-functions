@@ -1,5 +1,8 @@
 // this should be the entry point to your library
 module.exports = {
-  demo: require('./demo').default
+  addItemToList: require('./addItemToList').default,
+  arrayToObject: require('./arrayToObject').default,
+  createBooleanObject: require('./createBooleanObject').default,
+  objectToArray: require('./objectToArray').default
 };
 
