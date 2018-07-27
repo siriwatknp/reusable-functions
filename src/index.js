@@ -4,6 +4,7 @@ module.exports = {
   arrayToObject: require('./arrayToObject').default,
   createBooleanObject: require('./createBooleanObject').default,
   objectToArray: require('./objectToArray').default,
-  howLongAgo: require('./howLongAgo').default
+  howLongAgo: require('./howLongAgo').default,
+  getField: require('./getField').default
 };
 
