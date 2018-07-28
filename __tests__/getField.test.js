@@ -1,7 +1,7 @@
 import { assert } from 'chai';
 import { getField } from '../src';
 
-describe('addItemToList: array input', () => {
+describe('getField', () => {
   it('should return undefined', () => {
     const test = undefined;
     const predicate = ({ id }) => id === 'test';

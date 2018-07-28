@@ -5,6 +5,8 @@ module.exports = {
   createBooleanObject: require('./createBooleanObject').default,
   objectToArray: require('./objectToArray').default,
   howLongAgo: require('./howLongAgo').default,
-  getField: require('./getField').default
+  getField: require('./getField').default,
+  updateItemInList: require('./updateItemInList').default,
+  substringBetween: require('./substringBetween').default
 };
 
