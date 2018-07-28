@@ -2,8 +2,18 @@ import { assert } from 'chai';
 import { substringBetween } from '../src';
 
 describe('substringBetween', () => {
-  it('should return empty string', () => {
+  it('should throw error', () => {
     const test = undefined;
+    assert.throws(() => substringBetween(test));
+  });
+
+  it('should throw error', () => {
+    const test = () => {};
+    assert.throws(() => substringBetween(test));
+  });
+
+  it('should return empty string', () => {
+    const test = '';
     const startPattern = '';
     const endPattern = '';
     const expect = '';
