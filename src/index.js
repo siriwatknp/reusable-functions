@@ -5,8 +5,12 @@ module.exports = {
   createBooleanObject: require('./createBooleanObject').default,
   objectToArray: require('./objectToArray').default,
   howLongAgo: require('./howLongAgo').default,
-  getField: require('./getField').default,
+  getItemField: require('./getItemField').default,
   updateItemInList: require('./updateItemInList').default,
-  substringBetween: require('./substringBetween').default
+  substringBetween: require('./substringBetween').default,
+  omitKeys: require('./collection/omitKeys').default,
+  omitKeysBy: require('./collection/omitKeysBy').default,
+  contains: require('./collection/contains').default,
+  incrementBy: require('./collection/incrementBy').default
 };
 
